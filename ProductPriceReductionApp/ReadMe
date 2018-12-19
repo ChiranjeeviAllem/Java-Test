@@ -1,0 +1,16 @@
+Steps to run inside eclipse/STS:
+->Import this project as maven project
+->Run as spring boot app
+
+Steps to run jar file:
+->go to target folder of application and find the jar
+target\ProductPriceReductionApp-1.0-SNAPSHOT.jar  
+
+open cmd and execute bellow command
+java -jar target\ProductPriceReductionApp-1.0-SNAPSHOT.jar
+
+Application will run on port number 8088
+
+we can change the prot in application.proerties file.
+
+
