@@ -11,6 +11,18 @@ java -jar target\ProductPriceReductionApp-1.0-SNAPSHOT.jar
 
 Application will run on port number 8088
 
-we can change the prot in application.proerties file.
+Open the brower and hitg below url
+http://localhost:8088/v1/getAllProducts?labelType=ShowWasThenNow
 
+
+we can change the prot in application.proerties file if required by changing below property.
+server.port=8088
+
+Since endpoint can access only through proxy, we have added below properties to access the rest endpoint through proxy.
+jl.proxy.required=true
+jl.proxy.host=172.21.0.17 (change this if required)
+jl.proxy.port=8080 (change this if required)
+
+If your on same network then you can make below property as false.
+jl.proxy.required=false.
 
