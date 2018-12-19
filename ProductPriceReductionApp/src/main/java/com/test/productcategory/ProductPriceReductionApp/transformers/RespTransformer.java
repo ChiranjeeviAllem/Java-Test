@@ -66,7 +66,7 @@ public class RespTransformer {
 				}
 				if (!(product.getPrice().getNow() instanceof String)) {
 					LinkedHashMap nowpriceMap=(LinkedHashMap) product.getPrice().getNow();
-					product.getPrice().setNow(nowpriceMap.get("to"));					
+					product.getPrice().setNow(nowpriceMap.get(ProductConstants.TO));					
 				}
 				String nowAsString = String.valueOf(product.getPrice().getNow());
 				productResponse.setNowPrice(getNowPrice(nowAsString));
