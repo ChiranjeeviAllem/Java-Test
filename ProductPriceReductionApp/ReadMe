@@ -15,7 +15,7 @@ Open the brower and hitg below url
 http://localhost:8088/v1/products?labelType=ShowWasThenNow
 
 
-we can change the prot in application.proerties file if required by changing below property.
+we can change the port in application.proerties file if required by changing below property.
 server.port=8088
 
 Since endpoint can access only through proxy, we have added below properties to access the rest endpoint through proxy.
