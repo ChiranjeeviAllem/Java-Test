@@ -32,7 +32,7 @@ public class ProductController {
 	 * @param labelType the label type
 	 * @return the message
 	 */
-	@GetMapping(value="/v1/getAllProducts",produces = {MediaType.APPLICATION_JSON_VALUE})
+	@GetMapping(value="/v1/products",produces = {MediaType.APPLICATION_JSON_VALUE})
 	public List<ProductResponse> getAllProducts(@RequestParam(required=false,defaultValue = ProductConstants.SHOWWASNOW) String labelType){
 		//No validation required as labelType will be showwasnow by default.  
 		return productService.getAllProducts(labelType);
