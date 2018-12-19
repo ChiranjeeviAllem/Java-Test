@@ -27,6 +27,9 @@ public class ProductConstants {
 	/** The Constant SHOWPERCDSCOUNT. */
 	public static final String SHOWPERCDSCOUNT = "ShowPercDscount";
 	
+	/** The Constant TO. */
+	public static final String TO = "to";
+	
 	/**
 	 * Instantiates a new product constants.
 	 */
